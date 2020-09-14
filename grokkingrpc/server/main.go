@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "github.com/senyosimpson/tutorials/grokkingrpc/helloworld"
+	pb "github.com/senyosimpson/tutorials/grokkingprc/helloworld"
 )
 
 func Greet(ctx context.Context, request *pb.HelloRequest) (*pb.HelloReply, error) {
